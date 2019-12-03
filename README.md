@@ -33,10 +33,10 @@ The calculator uses my [matrix keypad library][13].
 [5]: https://create.arduino.cc/projecthub/8bitkick/retro-led-bubble-display-d357e9
 [6]: https://www.keesvandersanden.nl/calculators/novus650.php
 [7]: https://www.keesvandersanden.nl/calculators/novus650_inside.php
-[8]: ./hardware/Calculator.JPG
+[8]: ./hardware/Calculator.jpeg
 [9]: https://www.ti.com/product/MSP430G2553
 [10]: https://www.renesas.com/us/en/www/doc/datasheet/icm7228.pdf
 [11]: https://oshpark.com/
 [12]: ./hardware
 [13]: https://github.com/Andy4495/matrix-keypad-library
-[14]: ./hardware/retro-calculator-schematic.JPG
+[14]: ./hardware/retro-calculator-schematic.pdf
