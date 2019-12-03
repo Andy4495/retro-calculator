@@ -1,5 +1,6 @@
 Retro Calculator
 ================
+![Retro Calculator Image][8]
 
 After seeing an Arduino Project Hub [article][5], I purchased a handful of [NSA1166][2] bubble LED displays from [Jameco][3] and decided to build a [retro calculator][8].
 
