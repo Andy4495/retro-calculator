@@ -8,13 +8,13 @@ The calculator uses an [MSP430G2553][9] microcontroller and [ICM7228][10] LED dr
 
 To make the project as small as possible and to simplify the wiring, I created created a PCB design and ordered it from [OshPark][11].
 
-Due to limitations of the display (6 characters with a single fixed decimal point) and my keypad, the calculator only supports limited functions and integer math.
+Due to limitations of my keypad and the display (6 characters with a single fixed decimal point), the calculator only supports limited functions and integer math.
 
 ## Hardware ##
-The Eagle BRD and SCH files can be found in the [hardware folder][12], along with a PDF of the schematic.
+The Eagle BRD and SCH files can be found in the [hardware folder][12], along with a PDF of the [schematic][14].
 
-## Keypad library ##
-The calculator uses my [matrix keypad library][13].
+## External Libraries ##
+The calculator uses my [matrix keypad library][13] and [ICM7218 LED driver library][15].
 
 ## References ##
 * Arduino Project Hub [article][5]
@@ -40,3 +40,4 @@ The calculator uses my [matrix keypad library][13].
 [12]: ./hardware
 [13]: https://github.com/Andy4495/matrix-keypad-library
 [14]: ./hardware/retro-calculator-schematic.pdf
+[15]: https://github.com/Andy4495/ICM7218

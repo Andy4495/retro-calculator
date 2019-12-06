@@ -3,7 +3,7 @@
 // Note that the NSA1166 display only has 6 digits and a single fixed
 // decimal point.
 //
-// https://gitlab.com/Andy4495/Retro-Calculator
+// https://github.com/Andy4495/retro-calculator
 //
 // 1.0.0    04/12/2019  A.T.   Original
 
