@@ -6,6 +6,7 @@
 // https://github.com/Andy4495/retro-calculator
 //
 // 1.0.0    04/12/2019  A.T.   Original
+// 1.1.0    12/06/2019  A.T.   Use debounce routines from updated keypad library. 
 
 
 #include <ICM7218.h>
@@ -54,7 +55,7 @@ void loop() {
   long answer;
 
   // Debounce: Waits for button to be released before returning
-  c = getKeyWithDebounce();
+  c = myKeypad.getKeyWithDebounce();
 
   switch (c) {
     case Keypad4495::NO_KEY:
@@ -218,29 +219,6 @@ void displayCalc() {
   snprintf(convertBuffer, MAXCHARS + 1, " CALC ");
   myLED.convertToSegments(convertBuffer);
   myLED.print(convertBuffer);
-}
-
-char getKeyWithDebounce() {
-  char button;
-  unsigned long pressTime;
-
-  button = myKeypad.getKey();
-  if (button != Keypad4495::NO_KEY) {
-    pressTime = millis();
-    while (millis() - pressTime < DEBOUNCE_TIME)
-      ; // Spin our wheels while we wait
-
-    if (button == myKeypad.getKey()) {
-      // Same button, now wait for it to be released
-      while (myKeypad.getKey() == button)
-        ; // Spin our wheels and wait for button to be released
-    } else {
-      // Different button, so return NO_KEY and ignore the keypress
-      button = Keypad4495::NO_KEY;
-    }
-  }
-
-  return button;
 }
 
 void convertToDisplayFormat(char* rawString) {
