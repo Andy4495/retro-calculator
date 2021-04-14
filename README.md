@@ -26,6 +26,9 @@ The calculator uses my [matrix keypad library][13] and [ICM7218 LED driver libra
 * [Library][4] written specifically for NSA1166, without using discrete controller IC
 * Vintage Novus 650 Mathbox [calculator][6] that used the NSA1166 display, including [interior pictures][7]
 
+## License ##
+The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE`][101] in this repository.
+
 [1]: https://github.com/Andy4495/matrix-keypad-library
 [2]: https://www.jameco.com/Jameco/Products/ProdDS/2210976NAT.pdf
 [3]: https://www.jameco.com/z/NSA1166-National-Semiconductor-LED-Display-7-Segment-Red-0-10-Inch-6-Digit-1-65V-5mA-2-Inch-Long_2210976.html
@@ -41,3 +44,5 @@ The calculator uses my [matrix keypad library][13] and [ICM7218 LED driver libra
 [13]: https://github.com/Andy4495/matrix-keypad-library
 [14]: ./hardware/retro-calculator-schematic.pdf
 [15]: https://github.com/Andy4495/ICM7218
+[100]: https://choosealicense.com/licenses/mit/
+[101]: ./LICENSE
