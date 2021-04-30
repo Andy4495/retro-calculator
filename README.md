@@ -1,5 +1,5 @@
-Retro Calculator
-================
+# Retro Calculator
+
 ![Retro Calculator Image][8]
 
 After seeing an Arduino Project Hub [article][5], I purchased a handful of [NSA1166][2] bubble LED displays from [Jameco][3] and decided to build a [retro calculator][8].
@@ -10,13 +10,16 @@ To make the project as small as possible and to simplify the wiring, I created c
 
 Due to limitations of my keypad and the display (6 characters with a single fixed decimal point), the calculator only supports limited functions and integer math.
 
-## Hardware ##
+## Hardware
+
 The Eagle BRD and SCH files can be found in the [hardware folder][12], along with a PDF of the [schematic][14].
 
-## External Libraries ##
+## External Libraries
+
 The calculator uses my [matrix keypad library][13] and [ICM7218 LED driver library][15].
 
-## References ##
+## References
+
 * Arduino Project Hub [article][5]
 * NSA-1166 [datasheet][2]
 * NSA-1166 devices at [Jameco][3]
@@ -26,7 +29,8 @@ The calculator uses my [matrix keypad library][13] and [ICM7218 LED driver libra
 * [Library][4] written specifically for NSA1166, without using discrete controller IC
 * Vintage Novus 650 Mathbox [calculator][6] that used the NSA1166 display, including [interior pictures][7]
 
-## License ##
+## License
+
 The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE`][101] in this repository.
 
 [1]: https://github.com/Andy4495/matrix-keypad-library
@@ -46,3 +50,4 @@ The software and other files in this repository are released under what is commo
 [15]: https://github.com/Andy4495/ICM7218
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE
+[200]: https://github.com/Andy4495/retro-calculator
