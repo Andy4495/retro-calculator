@@ -1,7 +1,7 @@
 
 // Retro calculator using NSA 1166 Bubble Display and ICM7218 LED driver
 // Note that the NSA1166 display only has 6 digits and a single fixed
-// decimal point.
+// decimal point. 
 //
 // https://github.com/Andy4495/retro-calculator
 //
