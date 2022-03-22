@@ -1,5 +1,8 @@
 # Retro Calculator
 
+[![Arduino Compile Sketches](https://github.com/Andy4495/retro-calculator/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/retro-calculator/actions/workflows/arduino-compile-sketches.yml)
+[![Check Markdown Links](https://github.com/Andy4495/retro-calculator/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/retro-calculator/actions/workflows/CheckMarkdownLinks.yml)
+
 ![Retro Calculator Image][8]
 
 After seeing an Arduino Project Hub [article][5], I purchased a handful of [NSA1166][2] bubble LED displays from [Jameco][3] and decided to build a [retro calculator][8].
