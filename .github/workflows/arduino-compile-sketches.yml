@@ -44,6 +44,6 @@ jobs:
             - source-url: https://github.com/Andy4495/ICM7218.git
             - source-url: https://github.com/Andy4495/matrix-keypad-library.git
       - name: Print the job summary
-        if: ${{ inputs.message != null }}
+        if: ${{ inputs.message }}
         run: |
           echo ${{ inputs.message }} >$GITHUB_STEP_SUMMARY
