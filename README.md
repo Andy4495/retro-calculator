@@ -19,7 +19,7 @@ The Eagle BRD and SCH files can be found in the [hardware folder][12], along wit
 
 ## External Libraries
 
-The calculator uses my [matrix keypad library][13] and [ICM7218 LED driver library][15].
+The calculator uses my [matrix keypad library][1] and [ICM7218 LED driver library][15].
 
 ## References
 
@@ -48,9 +48,8 @@ The software and other files in this repository are released under what is commo
 [10]: https://www.renesas.com/us/en/www/doc/datasheet/icm7228.pdf
 [11]: https://oshpark.com/
 [12]: ./hardware
-[13]: https://github.com/Andy4495/matrix-keypad-library
 [14]: ./hardware/retro-calculator-schematic.pdf
 [15]: https://github.com/Andy4495/ICM7218
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE
-[200]: https://github.com/Andy4495/retro-calculator
+[//]: # ([200]: https://github.com/Andy4495/retro-calculator)
