@@ -1,7 +1,7 @@
 # Retro Calculator
 
 [![Arduino Compile Sketches](https://github.com/Andy4495/retro-calculator/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/retro-calculator/actions/workflows/arduino-compile-sketches.yml)
-[![Check Markdown Links](https://github.com/Andy4495/retro-calculator/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/retro-calculator/actions/workflows/CheckMarkdownLinks.yml)
+[![Check Markdown Links](https://github.com/Andy4495/retro-calculator/actions/workflows/check-links.yml/badge.svg)](https://github.com/Andy4495/retro-calculator/actions/workflows/check-links.yml)
 
 ![Retro Calculator Image][8]
 
